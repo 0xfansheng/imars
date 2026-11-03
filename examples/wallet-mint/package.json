@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "quote": "node cli.mjs",
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check cli.mjs && node --check mint.mjs"
+  },
+  "dependencies": {
+    "viem": "2.57.14"
+  },
+  "name": "imars-wallet-mint-example"
+}

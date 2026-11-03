@@ -1,0 +1,8 @@
+{
+  "publicArchive": "https://imars.fun/contracts/imars/imars-contract-source.zip",
+  "archiveSha256": "ecf49ad113f09e4abf378cce35fd0c16ea8132c8d0f2955a5b3f0fb32da5e374",
+  "publicStandardInput": "https://imars.fun/contracts/imars/standard-input.json",
+  "sourceCount": 16,
+  "originalManifest": "release-manifest.json",
+  "note": "Selected public release files only. Solidity sources are stored under contracts/ while Standard JSON source keys remain unchanged."
+}

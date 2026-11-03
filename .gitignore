@@ -1,0 +1,15 @@
+node_modules/
+build/
+.env
+.env.*
+*.log
+.DS_Store
+
+.vercel/
+.baw/
+.agentic-wallet/
+**/wallet-settings*.json
+**/settings.local.json
+**/preview-result*.json
+**/prepared*.json
+**/session*.json

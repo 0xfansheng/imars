@@ -1,0 +1,14 @@
+{
+  "name": "imars-contracts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "compile": "node scripts/compile.mjs",
+    "verify": "node scripts/verify.mjs"
+  },
+  "dependencies": { "viem": "2.57.14" },
+  "devDependencies": { "solc": "0.8.30" }
+}

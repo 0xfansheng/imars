@@ -1,0 +1,210 @@
+{
+  "format": 1,
+  "release": "imars-native-bnb-treasury",
+  "compiler": "0.8.30+commit.73712a01.Emscripten.clang",
+  "compilerSettings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "shanghai",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode.object",
+          "evm.deployedBytecode.object"
+        ]
+      }
+    }
+  },
+  "soliditySources": [
+    "@openzeppelin/contracts/interfaces/IERC1363.sol",
+    "@openzeppelin/contracts/interfaces/IERC165.sol",
+    "@openzeppelin/contracts/interfaces/IERC20.sol",
+    "@openzeppelin/contracts/interfaces/draft-IERC6093.sol",
+    "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+    "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+    "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+    "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
+    "@openzeppelin/contracts/token/ERC721/IERC721.sol",
+    "@openzeppelin/contracts/utils/Context.sol",
+    "@openzeppelin/contracts/utils/Panic.sol",
+    "@openzeppelin/contracts/utils/ReentrancyGuard.sol",
+    "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+    "@openzeppelin/contracts/utils/math/Math.sol",
+    "@openzeppelin/contracts/utils/math/SafeCast.sol",
+    "IMARS.sol"
+  ],
+  "contracts": {
+    "IMARS": {
+      "address": "0x64a3bad89abffd6f30f086ce90ccb951d3db432f",
+      "identifier": "IMARS.sol:IMARS",
+      "constructorArgs": [
+        "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+        "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
+        "0x6ff40626A97285076e0e67eef6A061f380AB390b"
+      ],
+      "constructorArgsHex": "0x00000000000000000000000060b9262456de011f7d15a54cdd8c48baaa8b022f000000000000000000000000bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c000000000000000000000000ca143ce32fe78f1f7019d7d551a6402fc5350c730000000000000000000000006ff40626a97285076e0e67eef6a061f380ab390b",
+      "creationBytecodeHash": "0xe7897ffd165a6a28b2bee468eaf7674ff2b20c3189242a6d3ebe544fc97d2361",
+      "creationDataHash": "0xc5f3c8fa604fe0aded6becd4ca8df8482dbfa3ac7af21b15591536489767cf2e",
+      "runtimeCodeHash": "0x7945f995aac3d9fdf146f8e57442b703aef831358748dbcd915581cad29a5983",
+      "bscscan": "https://bscscan.com/address/0x64a3bad89abffd6f30f086ce90ccb951d3db432f#code",
+      "sourcify": "https://repo.sourcify.dev/56/0x64a3bad89abffd6f30f086ce90ccb951d3db432f"
+    },
+    "IMARSTaxReceiver": {
+      "address": "0xE4d997e898777fd5BA8e5978f3D6fDc32fADa8aA",
+      "identifier": "IMARS.sol:IMARSTaxReceiver",
+      "constructorArgs": [
+        "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+      ],
+      "constructorArgsHex": "0x000000000000000000000000bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      "creationBytecodeHash": "0x7082c1a53f89192b9a16aa94159a9c011c49a7a0b466e131c3f40c766ef81ba0",
+      "creationDataHash": "0xeea90adf12ff934aca71ca267a5ca1e39f0891725ca7749ecac90a0b033c4c63",
+      "runtimeCodeHash": "0x4630a8e604fe4a4f9def99a1c1ee8b6855fed185f95313d0426fe1abb2492ca9",
+      "bscscan": "https://bscscan.com/address/0xE4d997e898777fd5BA8e5978f3D6fDc32fADa8aA#code",
+      "sourcify": "https://repo.sourcify.dev/56/0xE4d997e898777fd5BA8e5978f3D6fDc32fADa8aA"
+    }
+  },
+  "hashAlgorithm": "SHA-256",
+  "excludedFromFileHashes": [
+    "manifest.json"
+  ],
+  "reason": "The manifest cannot hash itself; the separately published archive SHA-256 covers it.",
+  "files": {
+    "@openzeppelin/contracts/interfaces/draft-IERC6093.sol": {
+      "bytes": 6538,
+      "sha256": "df936240c9a5d342582cbda70dd773b1c1d0e0dda3042b1c17b902ef0c36827b"
+    },
+    "@openzeppelin/contracts/interfaces/IERC1363.sol": {
+      "bytes": 4454,
+      "sha256": "9c3a75a925a6dac9e88b03cddc58d42fe3131b0aaaad84408521f3f7af2f991b"
+    },
+    "@openzeppelin/contracts/interfaces/IERC165.sol": {
+      "bytes": 193,
+      "sha256": "dfb3f56fa928a7c6cae41a7ce2c86b9210fa18d33fa26389099d66a0fa790368"
+    },
+    "@openzeppelin/contracts/interfaces/IERC20.sol": {
+      "bytes": 182,
+      "sha256": "0158e2d3e0e28bedd99eec13dcf1a8aa3a70a5b7e4bb2ad709609c95fcc740d1"
+    },
+    "@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "bytes": 10798,
+      "sha256": "9f906af4cba6e7e091dc12d45e6687e1239cf82d17678198424250fd64ab96bd"
+    },
+    "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "bytes": 684,
+      "sha256": "0b7132f17d14d1d84b41b0bb429be62dafdff00fd3470f68724d8018eb07f57a"
+    },
+    "@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "bytes": 2781,
+      "sha256": "01b6f5c4fa45fd38822b286ecef6daf983d27306dd6362496fa71b3e4600b72c"
+    },
+    "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol": {
+      "bytes": 10075,
+      "sha256": "ac1fd9fa99b194a8db8dfa9ae8e3ff44feaa8f16668241fd2b66ae8b47d7c082"
+    },
+    "@openzeppelin/contracts/token/ERC721/IERC721.sol": {
+      "bytes": 4929,
+      "sha256": "ff0eb9902bf0ac099205615fac90eacf34fae637571b05aab3ea35dea53d5f17"
+    },
+    "@openzeppelin/contracts/utils/Context.sol": {
+      "bytes": 963,
+      "sha256": "847fda5460fee70f56f4200f59b82ae622bb03c79c77e67af010e31b7e2cc5b6"
+    },
+    "@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+      "bytes": 871,
+      "sha256": "9055c2994b37dea1a41b7b7926dcb510f05dbe2540b0aafc5fbee9558fffd0ca"
+    },
+    "@openzeppelin/contracts/utils/math/Math.sol": {
+      "bytes": 32145,
+      "sha256": "92fee281fd46a1b058b190cf21d6b1a528f0433a907850ae1c9bcf36c5c0cd98"
+    },
+    "@openzeppelin/contracts/utils/math/SafeCast.sol": {
+      "bytes": 34943,
+      "sha256": "9769274bf53f26a7c7896c526ea1980dc9bea5bf5c2a5fd04870008c4afc1de9"
+    },
+    "@openzeppelin/contracts/utils/Panic.sol": {
+      "bytes": 1973,
+      "sha256": "270fc8401c1a13fae6a7a4a2dd6e381b95d658896701e51f0d3e2688acab3dec"
+    },
+    "@openzeppelin/contracts/utils/ReentrancyGuard.sol": {
+      "bytes": 3384,
+      "sha256": "32fbb1c908ec1b4de85cc1bb10091aebd5816ffe80dfdd5ca5e084fbea67a462"
+    },
+    "abi/IMARS.json": {
+      "bytes": 22746,
+      "sha256": "cf8f67d566064fbd79d8d5215215f8fa4749063bfea5c36cd43d5a46c6e4a7be"
+    },
+    "abi/IMARSTaxReceiver.json": {
+      "bytes": 1086,
+      "sha256": "77465df82431722212ebedd5aef38e9706d6df5ea5ad61b290a8db7b5ad02617"
+    },
+    "artifacts/IMARS.json": {
+      "bytes": 85632,
+      "sha256": "40cad74c56abb62405c606a010414957cb8d1f5d6ed3914f98d4fce923fb61f3"
+    },
+    "artifacts/IMARSTaxReceiver.json": {
+      "bytes": 3966,
+      "sha256": "60a1d5a79680a62ca81998593e7ee4e3169707c28a3505ca919c7514f7044b7d"
+    },
+    "compile.mjs": {
+      "bytes": 1903,
+      "sha256": "35656568a5f0871cb63a4a3a7f1552118f0ec586aebd013701a36c86bcbe3578"
+    },
+    "deployment.json": {
+      "bytes": 2513,
+      "sha256": "1241d1bc84f7684462ac4955215d0c535117fbd74b0a99e5132a38f3fb7c9a3f"
+    },
+    "IMARS.sol": {
+      "bytes": 20109,
+      "sha256": "503a8dd340279ec36eec20ab88cfab72436838bac0547848f38636d0d9ab79c6"
+    },
+    "LICENSE": {
+      "bytes": 1085,
+      "sha256": "4a991cedb92097a6f90e22144a5bc070c93c954bade4b50ebc71363f0b724d27"
+    },
+    "licenses/OpenZeppelin-MIT.txt": {
+      "bytes": 1090,
+      "sha256": "13cd784a6c31361f0e0c6aa3b410a1cb9a079868b7314c13e3eb8a75351746b9"
+    },
+    "package-lock.json": {
+      "bytes": 167974,
+      "sha256": "adc5367a8eec2c686290c15bb393311d32cdc8b469770443161fa51cabe378f3"
+    },
+    "package.json": {
+      "bytes": 448,
+      "sha256": "1ea0529fe8d2729dc294e52659a2b8326ad14d3ee487e171883f268d057c0141"
+    },
+    "README.md": {
+      "bytes": 4989,
+      "sha256": "1d86181d2314ed0e39388e165bc337c100e73cc081ca3f293237e3454d851e62"
+    },
+    "standard-input.json": {
+      "bytes": 140328,
+      "sha256": "c96a22aa5c37b93a1499dba46285a2dcc8d74ec39953af0a88e2df6934013d79"
+    },
+    "test/Fixtures.sol": {
+      "bytes": 7806,
+      "sha256": "5842d670232d48388fcfd354670873c9dc42acc9362f806387bc16b68124b0d7"
+    },
+    "test/imars.test.mjs": {
+      "bytes": 12785,
+      "sha256": "afd7d9a7d21412e78b1cded4b1b3393300540168230af17333aa39f3dc60df7b"
+    },
+    "test/swapback.test.mjs": {
+      "bytes": 14549,
+      "sha256": "715ba516d2568631d6aa9ff33f1545f6be6efdc43b35b8945264643ff6994025"
+    },
+    "THIRD-PARTY-NOTICES.md": {
+      "bytes": 655,
+      "sha256": "554bc4d5d5b55344df7706883d25a64c6d457604fe0185bc4f9ce81e22f7910f"
+    },
+    "verify.mjs": {
+      "bytes": 3748,
+      "sha256": "f668a119202e4564d9d4f1b3741377afa81cb943351f979cd3ab4311803da931"
+    }
+  }
+}

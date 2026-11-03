@@ -1,0 +1,46 @@
+{
+  "chainId": 56,
+  "network": "BNB Smart Chain mainnet",
+  "transaction": "0x120a046a24113f207f3c0692f359f5a3cc4df494663de3cb0baee527c8395634",
+  "block": "131383305",
+  "deployer": "0x16e2D87A3EdBE3430f09fa0154e58849Ae17453d",
+  "deployerNonce": 0,
+  "pair": "0x7e2c22E5fBAfD740C645Ae244D40bcFF74210b8D",
+  "constructorArgs": [
+    "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+    "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
+    "0x6ff40626A97285076e0e67eef6A061f380AB390b"
+  ],
+  "contracts": {
+    "IMARS": {
+      "address": "0x64a3bad89abffd6f30f086ce90ccb951d3db432f",
+      "identifier": "IMARS.sol:IMARS",
+      "constructorArgs": [
+        "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+        "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
+        "0x6ff40626A97285076e0e67eef6A061f380AB390b"
+      ],
+      "constructorArgsHex": "0x00000000000000000000000060b9262456de011f7d15a54cdd8c48baaa8b022f000000000000000000000000bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c000000000000000000000000ca143ce32fe78f1f7019d7d551a6402fc5350c730000000000000000000000006ff40626a97285076e0e67eef6a061f380ab390b",
+      "creationBytecodeHash": "0xe7897ffd165a6a28b2bee468eaf7674ff2b20c3189242a6d3ebe544fc97d2361",
+      "creationDataHash": "0xc5f3c8fa604fe0aded6becd4ca8df8482dbfa3ac7af21b15591536489767cf2e",
+      "runtimeCodeHash": "0x7945f995aac3d9fdf146f8e57442b703aef831358748dbcd915581cad29a5983",
+      "bscscan": "https://bscscan.com/address/0x64a3bad89abffd6f30f086ce90ccb951d3db432f#code",
+      "sourcify": "https://repo.sourcify.dev/56/0x64a3bad89abffd6f30f086ce90ccb951d3db432f"
+    },
+    "IMARSTaxReceiver": {
+      "address": "0xE4d997e898777fd5BA8e5978f3D6fDc32fADa8aA",
+      "identifier": "IMARS.sol:IMARSTaxReceiver",
+      "constructorArgs": [
+        "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+      ],
+      "constructorArgsHex": "0x000000000000000000000000bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      "creationBytecodeHash": "0x7082c1a53f89192b9a16aa94159a9c011c49a7a0b466e131c3f40c766ef81ba0",
+      "creationDataHash": "0xeea90adf12ff934aca71ca267a5ca1e39f0891725ca7749ecac90a0b033c4c63",
+      "runtimeCodeHash": "0x4630a8e604fe4a4f9def99a1c1ee8b6855fed185f95313d0426fe1abb2492ca9",
+      "bscscan": "https://bscscan.com/address/0xE4d997e898777fd5BA8e5978f3D6fDc32fADa8aA#code",
+      "sourcify": "https://repo.sourcify.dev/56/0xE4d997e898777fd5BA8e5978f3D6fDc32fADa8aA"
+    }
+  }
+}

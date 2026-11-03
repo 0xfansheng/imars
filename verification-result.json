@@ -1,0 +1,28 @@
+{
+  "checkedOn": "2026-11-03",
+  "verificationMode": "offline reproduction against public release artifacts",
+  "commandsPassed": ["npm run verify", "npm run compile"],
+  "compiler": "0.8.30+commit.73712a01.Emscripten.clang",
+  "soliditySources": 16,
+  "publicReleaseFilesChecked": 24,
+  "originalPublicArchiveSha256": "ecf49ad113f09e4abf378cce35fd0c16ea8132c8d0f2955a5b3f0fb32da5e374",
+  "results": [
+    {
+      "contract": "IMARS",
+      "abi": "exact",
+      "creationBytecode": "exact",
+      "runtimeTemplate": "exact",
+      "runtimeTemplateBytes": 13717,
+      "immutableBoundRuntimeHash": "0x7945f995aac3d9fdf146f8e57442b703aef831358748dbcd915581cad29a5983"
+    },
+    {
+      "contract": "IMARSTaxReceiver",
+      "abi": "exact",
+      "creationBytecode": "exact",
+      "runtimeTemplate": "exact",
+      "runtimeTemplateBytes": 581,
+      "immutableBoundRuntimeHash": "0x4630a8e604fe4a4f9def99a1c1ee8b6855fed185f95313d0426fe1abb2492ca9"
+    }
+  ],
+  "limitation": "This check reproduces the published deployment baseline offline; it is not a fresh on-chain lookup or security audit."
+}
